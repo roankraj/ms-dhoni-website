@@ -177,7 +177,7 @@ p {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 1)),
-    url(ing/Ms-dhoni-4.png);
+    url(img/Ms-dhoni-4.png);
   background-size: cover;
   background-position: center;
   background-position-y: -60%;
