@@ -1,0 +1,18 @@
+Perosnality - Startup + calm
+Font - Sans-serif; 
+
+Primary:
+#078bdc
+
+Shades
+
+Tints
+
+Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Font weigths:
+400 / 500 / 600 / 700

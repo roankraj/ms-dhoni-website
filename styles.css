@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: rgb(20, 20, 20);
+}
+body {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+}
+p {
+  font-size: 3.2rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.section {
+  margin-top: 25.6rem;
+}
+
+.primary-heading {
+  text-align: center;
+  font-size: 4.4rem;
+
+  letter-spacing: 1.2rem;
+  margin-bottom: 4.8rem;
+  text-transform: uppercase;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 4.8rem;
+  font-weight: 700;
+  gap: 50%;
+}
+.section-hero {
+  background-image:
+    linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 1)),
+    url(img/ms-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo-box {
+  color: #fff;
+
+  font-size: 2.4rem;
+  margin-left: 2.4rem;
+  word-spacing: 0.4rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.logo-box:hover {
+  color: #ffcb05;
+  cursor: pointer;
+}
+.main-nav-link {
+  position: relative;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-right: 3.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.main-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffcb05;
+  transition: width 0.3s ease;
+}
+
+.main-nav-link:hover::after {
+  width: 100%;
+}
+
+.about-text-box {
+  line-height: 1.2;
+  letter-spacing: 1.2;
+
+  margin: 0 auto;
+  max-width: 120rem;
+
+  font: 1rem;
+  text-align: justify;
+}
+.gallery {
+  margin: 0 1.2rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.4rem;
+  height: 50vh;
+}
+.gallery-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+.gallery-img-box:hover {
+  transform: translateY(-2.4rem);
+}
+.year {
+  font-size: 3.6rem;
+  padding-top: 5%;
+  font-weight: 600;
+  color: #ffcb05;
+}
+.gallery-subheading {
+  font-size: 2.4rem;
+  padding-bottom: 15%;
+}
+.gallery-img-box {
+  border-radius: 0.5rem;
+}
+.gallery-img-box-1 {
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
+    url(img/t20-2007.png);
+  background-size: cover;
+  background-position: center;
+}
+.gallery-img-box-2 {
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
+    url(img/icc-2011.png);
+  background-size: cover;
+  background-position: center -1rem;
+}
+.gallery-img-box-3 {
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
+    url(img/champ-2013.png);
+  background-size: cover;
+  background-position: center -8rem;
+}
+.gallery-img-box-4 {
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
+    url(img/asia-2010.png);
+  background-size: cover;
+  background-position: center;
+}
+.gallery-img-box-5 {
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
+    url(img/asia-2016.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-stats {
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 1)),
+    url(Ms-dhoni-4.png);
+  background-size: cover;
+  background-position: center;
+  background-position-y: -60%;
+  background-size: 65%;
+
+  background-repeat: no-repeat;
+
+  height: 100vh;
+}
+
+.stats-text-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100vh;
+  gap: 4.8rem;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-text-overview {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.stat-text-score {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: #ffcb05;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.matches {
+  align-self: flex-end;
+}
+
+.runs {
+  grid-row: 1;
+  grid-column: 3;
+  align-self: flex-end;
+}
+
+.hundreds {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.strike-rate {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.sixes {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.section-footer {
+  margin-top: 32rem;
+  margin-bottom: 6.4rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.6rem;
+}
+
+.footer-name {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.socials {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.logo {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.socials a ion-icon {
+  color: #fff;
+  transition: all;
+}
+
+.socials a:hover .logo-linkedin {
+  color: #4f7fb0;
+  transform: scale(1.1);
+}
+.socials a:hover .logo-facebook {
+  color: #5f8fcf;
+  transform: scale(1.1);
+}
+.socials a:hover .logo-youtube {
+  color: #bf4040;
+  transform: scale(1.1);
+}
+.socials a:hover .logo-github {
+  color: #6e5494;
+  transform: scale(1.1);
+}
+
+.footer-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #bbb;
+  font-size: 1.4rem;
+  gap: 1rem;
+}

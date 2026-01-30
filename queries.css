@@ -1,0 +1,5 @@
+@media (max-width: 75em) {
+  .about-text-box {
+    max-width: 62.5em;
+  }
+}
