@@ -48,7 +48,7 @@ p {
 .section-hero {
   background-image:
     linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 1)),
-    url(img/ms-hero.jpg);
+    url(img/ms-hero.webp);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -136,7 +136,7 @@ p {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
-    url(img/t20-2007.png);
+    url(img/t20-2007.webp);
   background-size: cover;
   background-position: center;
 }
@@ -144,7 +144,7 @@ p {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
-    url(img/icc-2011.png);
+    url(img/icc-2011.webp);
   background-size: cover;
   background-position: center -1rem;
 }
@@ -152,7 +152,7 @@ p {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
-    url(img/champ-2013.png);
+    url(img/champ-2013.webp);
   background-size: cover;
   background-position: center -8rem;
 }
@@ -160,7 +160,7 @@ p {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
-    url(img/asia-2010.png);
+    url(img/asia-2010.webp);
   background-size: cover;
   background-position: center;
 }
@@ -168,7 +168,7 @@ p {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
-    url(img/asia-2016.png);
+    url(img/asia-2016.webp);
   background-size: cover;
   background-position: center;
 }
@@ -177,7 +177,7 @@ p {
   overflow: hidden;
   background-image:
     linear-gradient(rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 1)),
-    url(img/Ms-dhoni-4.png);
+    url(img/Ms-dhoni-4.webp);
   background-size: cover;
   background-position: center;
   background-position-y: -60%;
@@ -259,7 +259,7 @@ p {
 
 .footer-name {
   font-size: 2rem;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.05rem;
   text-transform: uppercase;
   font-weight: 600;
 }
