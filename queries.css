@@ -46,7 +46,7 @@
   }
 
   .section-stats {
-    background-position-y: 0%;
+    background-position-y: 10%;
     background-size: 65%;
   }
 }
@@ -76,6 +76,36 @@
 
   .gallery-img-box-3 {
     background-position: center;
+  }
+
+  .stats-text-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    gap: 4.8rem;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .matches {
+    align-self: center;
+  }
+
+  .runs {
+    align-self: center;
+  }
+
+  .hundreds {
+    align-self: flex-start;
+  }
+
+  .strike-rate {
+    align-self: flex-start;
+  }
+
+  .sixes {
+    align-self: flex-start;
   }
 }
 
