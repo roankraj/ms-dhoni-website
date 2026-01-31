@@ -1,5 +1,53 @@
-@media (max-width: 75em) {
+/* 1344px 1200px 944px 704px 544px */
+/*   84    75     59    44    34 */
+
+@media (max-width: 84em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 84em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 44%;
+  }
+
+  .gallery {
+    height: 40vh;
+  }
+
   .about-text-box {
-    max-width: 62.5em;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .section {
+    margin-top: 19.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 31.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 31.25%;
+  }
+
+  .main-nav-link {
+    margin-right: 1.6rem;
+  }
+
+  .gallery {
+    height: 38vh;
   }
 }

@@ -134,7 +134,7 @@ const aboutObserver = new IntersectionObserver(
               span.style.color = "#fff";
               lastColoredIndex = i;
             },
-            (i - lastColoredIndex - 1) * 40,
+            (i - lastColoredIndex - 1) * 25,
           ); // 40ms per letter
         }
       });

@@ -69,7 +69,7 @@ p {
 .main-nav-link {
   position: relative;
   display: inline-block;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-right: 3.2rem;
   font-weight: 500;
   cursor: pointer;
@@ -93,15 +93,18 @@ p {
 }
 
 .about-text-box {
-  line-height: 1.2;
-  letter-spacing: 1.2;
+  line-height: 1.15;
 
   margin: 0 auto;
   max-width: 120rem;
-
-  font: 1rem;
   text-align: justify;
 }
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+.about-text-box p {
+  font-size: 3rem;
+}
+
 .gallery {
   margin: 0 1.2rem 0;
   display: grid;
@@ -115,6 +118,7 @@ p {
   align-items: center;
   justify-content: space-between;
   transition: all 0.3s;
+  text-align: center;
 }
 .gallery-img-box:hover {
   transform: translateY(-2.4rem);
