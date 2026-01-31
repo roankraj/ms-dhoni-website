@@ -3,12 +3,6 @@
 
 @media (max-width: 84em) {
   html {
-    font-size: 56.25%;
-  }
-}
-
-@media (max-width: 84em) {
-  html {
     font-size: 50%;
   }
 }
@@ -49,6 +43,11 @@
 
   .gallery {
     height: 38vh;
+  }
+
+  .section-stats {
+    background-position-y: 0%;
+    background-size: 65%;
   }
 }
 
