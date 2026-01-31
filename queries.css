@@ -51,3 +51,41 @@
     height: 38vh;
   }
 }
+
+@media (max-width: 34em) {
+  html {
+    font-size: 25%;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    height: 350vh;
+    max-width: 78%;
+    margin: 0 auto;
+  }
+
+  .gallery-img-box {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .section-hero {
+    background-position-x: 70%;
+    /* background-size: 65%; */
+    background-repeat: no-repeat;
+  }
+
+  .gallery-img-box-3 {
+    background-position: center;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 20%;
+  }
+
+  .gallery {
+    height: 325vh;
+  }
+}
