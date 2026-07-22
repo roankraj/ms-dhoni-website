@@ -20,8 +20,6 @@ This project showcases MS Dhoni's cricketing legacy, including his career highli
 
 - **HTML5** – Page structure and content
 - **CSS3** – Styling and responsive layout
-- **Ionicons** – Icon library for social media links
-- **Google Fonts** – Inter, Rubik, and Zalando Sans Expanded
 
 ## 🚀 Getting Started
 
