@@ -8,6 +8,20 @@ A tribute website for MS Dhoni, built as part of my web development learning jou
 
 This project showcases MS Dhoni's cricketing legacy, including his career highlights, trophies, and statistics, through a clean, responsive single-page design.
 
+## 📸 Screenshots
+
+<div align="center">
+  <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px;">
+    <img src="./img/demo1.png" width="45%" alt="demo 1">
+    <img src="./img/demo2.png" width="45%" alt="demo 2">
+  </div>
+
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="./img/demo3.png" width="45%" alt="demo 3">
+    <img src="./img/demo4.png" width="45%" alt="demo 4">
+  </div>
+</div>
+
 ## ✨ Features
 
 - **About Section** – A brief overview of MS Dhoni's career and impact

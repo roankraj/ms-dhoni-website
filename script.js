@@ -11,6 +11,12 @@ const navMapping = {
   stats: "stats",
   "contact us": "contact",
 };
+document.querySelector(".logo-box").addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
 document.querySelectorAll(".main-nav-link").forEach((t) => {
   t.addEventListener("click", () => {
     const e = t.textContent.toLowerCase().trim(),
